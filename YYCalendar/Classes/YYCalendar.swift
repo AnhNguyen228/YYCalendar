@@ -251,6 +251,7 @@ import Foundation
     }
 
     public var dayLabelFont: UIFont = UIFont.systemFont(ofSize: 19) {
+        
         didSet {
             weak var weakSelf = self
             if let weakSelf = weakSelf {

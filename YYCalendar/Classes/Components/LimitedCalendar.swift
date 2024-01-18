@@ -75,7 +75,7 @@ import UIKit
     public var inquiryDate: Date = Date() // input date from client
     public var dateFormat: String = "" // input date format from client
     public var langType: LangType = .ENG // default value is English
-    let calendar: Calendar = Calendar(identifier: .gregorian)
+    let calendar: Calendar = Calendar.current
     var weekArray: [String] = []
 
     // Detached from inquiryDate
